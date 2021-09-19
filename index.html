@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<body style="background-color: #f5f5f5";> 
+<body onload= display_ct();>
+
+       
+ 
+
+<head>
+<meta charset="utf-8">
+<title>Periodico El Faro</title>
+<link rel="stylesheet" href="index.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+<script>
+function display_c(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_ct()',refresh)
+}
+function display_ct() {
+var x = new Date()
+document.getElementById('ct').innerHTML = x;
+display_c();
+ }
+</script>
+
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+</style>
+<span id='ct' ></span>
+
+   <h1>Periodico el farol</h1>
+        <img src="https://tse4.mm.bing.net/th?id=OIP.KXPHXE-Z2MJuLkIE35PKfwHaDb&pid=Api&P=0&w=348&h=162">
+    <h2> Menú </h2>
+    <h3>Inicio</h3>
+    <p>
+    <a href="#" onclick="window.open('https://tarea1aiep.github.io/Semana4/NoticiasGrid.html', '_blank');window.close()">Noticias</a>
+    
+    </p>
+
+</body>
+</body>  
+</html>
