@@ -89,3 +89,15 @@ li:hover ul {
         position: absolute;
     
 }
+.destacada {
+    background-color: crimson ;
+    border: 8px solid rgb(0, 0, 0);
+    float: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    img display: block;
+    
+    }
+.destacada:hover {
+    color: blueviolet;}
+
